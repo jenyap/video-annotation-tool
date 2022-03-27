@@ -1,0 +1,14 @@
+##
+__pycache__/
+*.py[cod]
+.DS_Store
+
+##
+videos/
+saved_videos/
+importance_maps/
+venv/
+
+##
+pre_processing/helper/videos_bitrates.py
+pre_processing/videos_data.json
