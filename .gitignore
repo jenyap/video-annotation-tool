@@ -7,7 +7,9 @@ __pycache__/
 videos/
 saved_videos/
 importance_maps/
+x264_stats/
 venv/
+
 
 ##
 pre_processing/helper/videos_bitrates.py

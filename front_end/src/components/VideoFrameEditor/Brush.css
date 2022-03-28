@@ -1,0 +1,10 @@
+.Brush {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.Brush-display-canvas {    
+    border: 1px solid #d3d3d3;
+
+}

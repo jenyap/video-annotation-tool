@@ -1,0 +1,11 @@
+.Experiment {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.experiment-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}

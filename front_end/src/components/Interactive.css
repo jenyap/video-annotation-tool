@@ -1,0 +1,14 @@
+.Interactive {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video-frame-editor-wrapper {
+    position: relative
+}
+
+.video-frame-editor-interactive {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

@@ -1,0 +1,7 @@
+.video-frame {
+    width: 480px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

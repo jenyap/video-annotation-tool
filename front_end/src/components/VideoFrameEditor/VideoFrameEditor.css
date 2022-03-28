@@ -1,0 +1,21 @@
+.VideoFrameEditor {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.video-frame-editor-video-zone {    
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.video-canvas-inside-wrapper {
+    width: 480px;
+    height: 270px;
+    position: relative;
+}
+
+.drawing-mode {
+    margin-top: 50px;
+}
