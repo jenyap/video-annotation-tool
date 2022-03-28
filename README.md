@@ -1,7 +1,7 @@
 # Video Annotation Tool
 
 ## General:
-1. Download the code: ```git clone https://github.com/jenyap/annotation-tool.git```
+1. Download the code: ```git clone https://github.com/jenyap/video-annotation-tool.git```
 2. Create ```saved_videos```, ```x264_stats``` and ```importance_maps``` directories in ```${Project_Dir}```
 3. After running step 2 in BackEnd a virtual environment is created in ```${Project_Dir}/venv```. <br>To activate it run: ```source ${Project_Dir}/venv/bin/activate```. Please run these two steps first.
 
