@@ -7,11 +7,18 @@
 
 ## X264:
 1. git clone the modified [x264](https://github.com/wave-one/x264) code.
-2. Define an environment variable named X264_WAVEONE and set it to (1)
+2. Define an environment variable named X264_WAVEONE and set it to the full-path of x264 directory.
 3. If [GPAC](https://github.com/gpac/gpac) is installed, set ```GPAC = TRUE``` in ```${Project_Dir}/back_end/src/video/video.py```
-4. In ```pre_processing/helper/videos_bitrates.py``` create a ```videos_bitrate``` python dict that maps from a video name to the        wanted bitrate. For example ```videos_bitrate = {video1: 100, video2: 150}```
+4. Compile x264 using following commands:
+   ```
+   ./configure --disable-interlaced
+   make -j
+   ```
+5. In ```pre_processing/helper/videos_bitrates.py``` create a ```videos_bitrate``` python dict that maps from a video name to the wanted bitrate. For example ```videos_bitrate = {'video1': 100, 'video2': 150}```
 
 ## Videos:
+Add the videos where BackEnd will run. Example video directory is provided below (Dataset section).
+
 #### ```${Project_Dir}/videos``` structure:
   - video1:
     - video1.mp4
