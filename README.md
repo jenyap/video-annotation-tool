@@ -30,7 +30,7 @@
 ## BackEnd:
 1. Go to: ```${Project_Dir}/back_end```
 2. Run ```make install```
-3. Activate the virtual env and install waitress: ```pip install waitress```
+3. Activate the virtual env
 4. Go to: ```${Project_Dir}/back_end/src```
 5. Run: ```waitress-serve --call --port=PortNum 'app:create_app' ```
 

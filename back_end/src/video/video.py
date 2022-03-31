@@ -19,8 +19,8 @@ from config.config import _IMPORTANCE_MAPS, _X264_PATH, _TWO_PASS_STATS
 from config.const import Task, EditMode
 
 
-GPAC = True
-#GPAC = False
+#GPAC = True
+GPAC = False
 
 NUM_VIDEOS_PER_USER = 5
 
