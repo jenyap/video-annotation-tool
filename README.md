@@ -4,6 +4,7 @@
 1. Download the code: ```git clone https://github.com/jenyap/video-annotation-tool.git```
 2. Create ```saved_videos```, ```x264_stats``` and ```importance_maps``` directories in ```${Project_Dir}```
 3. After running step 2 in BackEnd a virtual environment is created in ```${Project_Dir}/venv```. <br>To activate it run: ```source ${Project_Dir}/venv/bin/activate```. Please run these two steps first.
+4. Please use Chrome Browser.
 
 ## X264:
 1. git clone the modified [x264](https://github.com/wave-one/x264) code.
@@ -55,13 +56,13 @@ To visualize the importance map as an mp4 video please use ```${Project_Dir}/pos
 
 ## Dataset:
 For our research we used a subset of videos from CLIC 2021 video compression [challenge](http://compression.cc/tasks/). 
-The videos we used can be found [here](https://drive.google.com/file/d/1cpZCgHmjBVekkLTNtGFIxsvsCDpC1VYU/view?usp=sharing).
+The videos we used can be found [here](https://drive.google.com/file/d/1As6u_D6jN2uLPEbZ45kVWe609E151Y5P/view?usp=sharing).
 
-We used MTurk to annotate the videos using this tool, the results can be found [here](https://drive.google.com/file/d/1-IOMpb4o9hO15GWikT51y5RhQPwjoxJY/view?usp=sharing).
+We used MTurk to annotate the videos using this tool, the results can be found [here](https://drive.google.com/file/d/1L_njK-NqHgUYpZsUHFreupJ9ksA0w4ER/view?usp=sharing).
 
 We created an average importance map based on the MTurk user annotations. 
 We encoded each video twice using x264: (1) with the importance map (2) without the importance map (baseline).
-One can find the videos and the average importance map [here](https://drive.google.com/file/d/1rI-eg_N5LfDcWQhB9Dy6dVH4r43qHMxB/view?usp=sharing).
+One can find the videos and the average importance map [here](https://drive.google.com/file/d/10HtnlMTjjLVenX9KkHsKhcRhmW-kfSLd/view?usp=sharing).
 
 
 ## Acknowledgement
