@@ -57,7 +57,7 @@ To visualize the importance map as an mp4 video please use ```${Project_Dir}/pos
 For our research we used a subset of videos from CLIC 2021 video compression [challenge](http://compression.cc/tasks/). 
 The videos we used can be found [here](https://drive.google.com/file/d/1cpZCgHmjBVekkLTNtGFIxsvsCDpC1VYU/view?usp=sharing).
 
-We used MTurk to annotate the videos using this tool, the results can be found [here](https://drive.google.com/file/d/15EmjVRofnlrc0nk4g5HfqIcvE5n_gi2G/view?usp=sharing).
+We used MTurk to annotate the videos using this tool, the results can be found [here](https://drive.google.com/file/d/1-IOMpb4o9hO15GWikT51y5RhQPwjoxJY/view?usp=sharing).
 
 We created an average importance map based on the MTurk user annotations. 
 We encoded each video twice using x264: (1) with the importance map (2) without the importance map (baseline).
