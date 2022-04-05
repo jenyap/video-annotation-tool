@@ -64,6 +64,8 @@ We created an average importance map based on the MTurk user annotations.
 We encoded each video twice using x264: (1) with the importance map (2) without the importance map (baseline).
 One can find the videos and the average importance map [here](https://drive.google.com/file/d/10HtnlMTjjLVenX9KkHsKhcRhmW-kfSLd/view?usp=sharing).
 
+## Try the Video Annotation Tool
+Please use Chrome browser and go to [this](http://34.133.152.191:3000/) website.
 
 ## Acknowledgement
 We would like to thank Ayal Mittelman and Itamar Raviv for helping develop the video annotation tool.
